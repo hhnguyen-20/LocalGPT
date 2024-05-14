@@ -50,7 +50,7 @@ def get_runnable_session() -> Runnable:
 
 def set_runnable_session(runnable: Runnable) -> None:
     """
-    Sets the runnable session in the user session.
+    Stores the runnable session in the user session.
     """
     cl.user_session.set("runnable", runnable)
 
