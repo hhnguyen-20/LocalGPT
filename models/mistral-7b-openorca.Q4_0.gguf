@@ -1,0 +1,4 @@
+"""
+Download the model at
+https://huggingface.co/TheBloke/Mistral-7B-OpenOrca-GGUF/blob/main/mistral-7b-openorca.Q4_0.gguf
+"""
