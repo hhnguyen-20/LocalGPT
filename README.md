@@ -14,7 +14,7 @@ python3 -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-3. Train the model using the `ollama`
+3. Train the model using the [`Ollama`](https://ollama.com)
 
 ```terminal
 ollama create <your-model-name> -f Modelfile
@@ -40,7 +40,7 @@ model = Ollama(model="<your-model-name>")
 chainlit run app.py
 ```
 
-6. Optional: (Need connecting to the internet) You can create a database named "LocalGPT" to store the user inputs and chat responses on langchain. Rename the file `example.env` to `.env` and add the following environment variables:
+6. Optional: (Need connecting to the internet) You can create a database named "LocalGPT" to store the user inputs and chat responses on [`Langchain`](https://www.langchain.com). Rename the file `example.env` to `.env` and add the following environment variables:
 
 ```example.env
 LANGCHAIN_TRACING_V2=true
